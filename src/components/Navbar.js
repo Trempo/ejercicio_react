@@ -1,5 +1,5 @@
 import './Navbar.css';
-function Navbar() {
+function Navbar(prop) {
   return (
     <nav className="navbar navbar-expand-lg">
       <div className="container-fluid">
@@ -19,18 +19,18 @@ function Navbar() {
         <div className="collapse navbar-collapse" id="navbarText">
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#">
-                Home
+              <a className="nav-link active" aria-current="page" onClick={prop.onHome}>
+                Museos
               </a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#">
-                Features
+                Artistas
               </a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#">
-                Pricing
+                Movimientos
               </a>
             </li>
           </ul>

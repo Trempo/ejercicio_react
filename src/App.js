@@ -12,7 +12,7 @@ const App = () => {
   };
   return (
     <div className="App">
-      <Navbar />
+      <Navbar onHome={() => setSelectedMuseum(null)} />
       <div className="container">
         <h5 className="mt-3 mb-3">
           {' '}
