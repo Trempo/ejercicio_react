@@ -1,0 +1,32 @@
+img.optionPhoto {
+  width: 178px;
+  height: 143px;
+  object-fit: cover;
+  margin: 0;
+}
+
+h5.card-title {
+  font-size: 32px;
+  line-height: 38px;
+}
+
+p.card-text {
+  font-size: 20px;
+  line-height: 23px;
+}
+
+div.card {
+  width: 266px;
+  padding: 10px;
+  padding-top: 44px;
+  background: #c4c4c4;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  margin-right: 21px;
+  margin-left: 21px;
+}
+
+h5.description {
+  font-size: 36px;
+  padding: 0 29px 33px 29px;
+}
